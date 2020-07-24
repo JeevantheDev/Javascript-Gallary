@@ -1,0 +1,30 @@
+h1 {
+  font-family: "Fredoka One", cursive;
+}
+i {
+  color: white;
+}
+.col-auto {
+  height: auto;
+}
+.card {
+  font-family: "Pacifico", cursive;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+#filter {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+input[type="text"] {
+  outline: none;
+}
